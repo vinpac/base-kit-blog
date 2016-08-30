@@ -1,0 +1,28 @@
+.video {
+  position: relative;
+  user-select: none;
+
+  .video-thumb {
+    @include absolute-center();
+    background: rgba(#000, .2);
+    margin: auto;
+    cursor: pointer;
+    transition: background .2s;
+    cursor: pointer;
+    z-index: 2;
+
+    > i {
+      @include absolute-center();
+      font-size: 64px;
+      color: #fff;
+      width: 64px;
+      height: 64px;
+
+    }
+
+    &:hover {
+      background: rgba(#000, .1)
+    }
+
+  }
+}
