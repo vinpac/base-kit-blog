@@ -23,13 +23,12 @@ $container-max-widths: (
   sm: 576px,
   md: 720px,
   lg: 940px,
-  xl: 1200px
+  xl: 1050px
 ) !default;
 
 // Font
 $font-family-base: Arial, Helvetica, sans-serif !default;
 $line-height-base: 1.5 !default;
-$line-height-paragraph: 1.7 !default;
 $font-size-root: 16px !default;
 $font-size-base: 16px !default;
 $text-color: #333 !default;
@@ -45,8 +44,10 @@ $font-size-h6: 1rem !default;
 
 $headings-margin-bottom: .5rem !default;
 $headings-line-height: 1.15 !default;
-$headings-font-weight: 500 !default;
+$headings-font-weight: bold !default;
 $headings-color: inherit !default;
+
+$paragraph-line-height: 1.4 !default;
 
 // Grid
 $grid-columns: 12 !default;
