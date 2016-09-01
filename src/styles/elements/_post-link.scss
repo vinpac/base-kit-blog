@@ -1,0 +1,38 @@
+.post-link {
+
+  .img-cover {
+    height: 250px;
+  }
+
+  .content {
+    margin-top: 1rem;
+  }
+
+  &.large {
+    display: flex;
+
+    .img-cover {
+      display: flex;
+      flex: 1 1 auto;
+      float: left;
+      height: 350px;
+    }
+
+    .content {
+      width: 320px;
+      margin:0 0 0 1.8rem;
+    }
+  }
+
+  .link-muted {
+    color: #222;
+
+    p {
+      color: #666;
+    }
+  }
+
+  a.img-cover {
+    display: block;
+  }
+}
